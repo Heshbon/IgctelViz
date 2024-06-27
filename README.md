@@ -21,9 +21,9 @@ An application built for visualizing cyber security data in real-time. This app 
 ## Installation
 
 1. **Clone the repository:**  
-   ```bash
-   git clone https://github.com/Heshbon/IgctelViz.git
-```
+
+	git clone https://github.com/Heshbon/IgctelViz.git
+
 2. Navigate to the project directory:
 
   cd IgctelViz

@@ -1,7 +1,5 @@
 # Project Landing Page
-This project is inspired by a personal interest in Software engineering and cybersecurity. The idea originated from the need to create a tool that could simplify the monitoring and analysis of cybersecurity threats in real-time. The development timeline spanned seven days, driven by a passion for improving cybersecurity practices through innovative techniques.</p>.
-            <br><br>
-            This project is a Portfolio Project for Holberton School. You can learn more about Holberton School and their programs <a href="https://www.holbertonschool.com/" target="_blank">here</a>.
+This project is inspired by a personal interest in Software engineering and cybersecurity. The idea originated from the need to create a tool that could simplify the monitoring and analysis of cybersecurity threats in real-time. The development timeline spanned seven days, driven by a passion for improving cybersecurity practices through innovative techniques.This project is a Portfolio Project for Holberton School. You can learn more about Holberton School and their programs <a href="https://www.holbertonschool.com/" target="_blank">here</a>.
 
 ## Table of Contents
 
@@ -42,8 +40,8 @@ Check out the live application [here]().
 - Parallax Effect
 
 2. Navigate to the project directory
-    cd igctelviz-platform
-3. Open index.html in your browser
+   + cd igctelviz-platform
+4. Open index.html in your browser
 
 ## Usage
 Navigate through the landing page sections by clicking on the menu links (Home, About, Products, Contact) located in the header. Scroll through each section to explore information about IgctelViz, including its mission in cybersecurity visualization and its developer's profiles. Engage with interactive elements such as the "Get Started" button for further exploration or networking opportunities. The page adapts seamlessly to different screen sizes for a consistent user experience.

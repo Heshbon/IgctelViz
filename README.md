@@ -23,7 +23,7 @@ This project is inspired by a personal interest in Software engineering and cybe
 
 ## Deployed Landing Page
 
-Check out the live application [here]().
+Check out the live application [here](https://heshbon.github.io/IgctelViz/).
 
 ## Technologies Used
 

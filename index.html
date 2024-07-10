@@ -1,91 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Box Icons -->
-  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-  
-  
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>IgctelViz</title>
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+   <!-- Remixicon -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+   <!-- Style CSS -->
+   <link rel="stylesheet" href="style.css">
+
+   <title>IgctelViz</title>
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <nav class="nav bd-grid">
-      <div>
-        <a href="#" class="nav__logo">IgctelViz</a>
-      </div>
+   <!-- Header -->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">
+            <div>
+               <img src="img/LogoVizImg.jpg" alt="Logo">
+            </div>
+            IgctelViz
+         </a>
 
-      <div class="nav__toggle" id="nav-toggle">
-        <i class='bx bx-menu'></i>
-      </div>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+               <li>
+                  <a href="#about" class="nav__link">About</a>
+               </li>
+               <li>
+                  <a href="#popular" class="nav__link">Popular</a>
+               </li>
+               <li>
+                  <a href="#deployment" class="nav__link active-link">Deployment</a>
+               </li>
+               <li>
+                  <a href="#contact" class="nav__link">Contact</a>
+               </li>
+            </ul>
 
-      <div class="nav__menu" id="nav-menu">
-        <div class="nav__close" id="nav-close">
-          <i class='bx bx-x'></i>
+            <!-- Close button -->
+            <div class="nav__close" id="nav__close">
+               <i class="ri-close-large-fill"></i>
+            </div>
+         </div>
+
+         <!-- Toggle button -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-fill"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!-- Main -->
+   <main class="main">
+      <!-- Home -->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h1 class="home__title">Seeing Beyond <br> The Surface.</h1>
+               <p class="home__description">
+                IgctelViz is s an innovative web-based platform specializing in cybersecurity visualization solutions that provide real-time threat detection and actionable insights, ensuring robust protection for your digital assets.
+               </p>
+               <a href="#popular" class="button">Get Started</a>
+               <img src="img/cyber stick.jpg" alt="Cyber Stick" class="home__sticker">
+            </div>
+            <div class="home__images">
+               <img src="img/cyber security.jpeg" alt="Cyber Security" class="home__cybersecurity">
+               <img src="img/defense.jpeg" alt="Defense" class="home__defense">
+               <img src="img/cybersecure.jpeg" alt="Cybersecure" class="home__response home__netsecurity-1">
+               <img src="img/cybersecure.jpeg" alt="Cybersecure" class="home__response home__netsecurity-2">
+               <img src="img/attacks.jpeg" alt="Attacks" class="home__response home__attacks-1">
+               <img src="img/attacks.jpeg" alt="Attacks" class="home__response home__attacks-2">
+               <img src="img/secure.jpeg" alt="Secure" class="home__response home__cybersecure-1">
+               <img src="img/secure.jpeg" alt="Secure" class="home__response home__cybersecure-2">
+            </div>
+         </div>
+      </section>
+
+      <!-- About Us -->
+      <section class="about section" id="about">
+         <h2 class="about__title section__title">Our Innovative Discovery</h2>
+         <div class="about__container container grid">
+            <div class="about__image">
+               <img src="img/cyber security.jpeg" alt="Cyber Security" class="about__img">
+            </div>
+            <div class="about__data">
+               <div class="about__card">
+                  <div class="about__box">
+                     <img src="img/digital forensic.jpeg" alt="Digital Forensic">
+                  </div>
+                  <div>
+                     <h3 class="about__title">Digital Forensic</h3>
+                     <p class="about__description">Cyber Sleuths, Digital Truths.</p>
+                  </div>
+               </div>
+               <div class="about__card">
+                  <div class="about__box">
+                     <img src="img/incident response.jpeg" alt="Incident Response">
+                  </div>
+                  <div>
+                     <h3 class="about__title">Incident Response</h3>
+                     <p class="about__description">Rapid Response, Resolved.</p>
+                  </div>
+               </div>
+               <div class="about__card">
+                  <div class="about__box">
+                     <img src="img/threat detection.jpeg" alt="Threat Detection">
+                  </div>
+                  <div>
+                     <h3 class="about__title">Cyber Threats</h3>
+                     <p class="about__description">Spot Threats, Stay Safe.</p>
+                  </div>
+               </div>
+               <div class="about__card">
+                  <div class="about__box">
+                     <img src="img/network traffic.jpeg" alt="Network Traffic">
+                  </div>
+                  <div>
+                     <h3 class="about__title">Network Traffic</h3>
+                     <p class="about__description">Visualize Traffic, Secure Insights.</p>
+                  </div>
+               </div>
+               <div class="about__card">
+                  <div class="about__box">
+                     <img src="img/cybersecure.jpeg" alt="Cybersecure">
+                  </div>
+                  <div>
+                     <h3 class="about__title">Cyber Security</h3>
+                     <p class="about__description">Securing Your Digital Future.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Popular Products -->
+      <section class="popular section" id="popular">
+         <h2 class="popular__title section__title">Advanced Cybersecurity <br> and Visualization Solutions.</h2>
+         <div class="popular__container container grid">
+            <article class="popular__card">
+               <img src="img/compliance.jpeg" alt="Compliance" class="popular__img">
+               <h2 class="popular__title">Compliance & <br> Risk management.</h2>
+               <span class="popular__price">$ 380</span>
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+            <article class="popular__card">
+               <img src="img/threat detection.jpeg" alt="Threat Detection" class="popular__img">
+               <h2 class="popular__title">Threat Detection & <br> Analysis.</h2>
+               <span class="popular__price">$ 465</span>
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+            <article class="popular__card">
+               <img src="img/network traffic.jpeg" alt="Network Traffic" class="popular__img">
+               <h2 class="popular__title">Network Traffic & <br> Visualization.</h2>
+               <span class="popular__price">$ 580</span>
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+            <article class="popular__card">
+               <img src="img/incident response.jpeg" alt="Incident Response" class="popular__img">
+               <h2 class="popular__title">Incident Response & <br> Management.</h2>
+               <span class="popular__price">$ 735</span>
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+            <article class="popular__card">
+               <img src="img/activity.jpeg" alt="User Activity" class="popular__img">
+               <h2 class="popular__title">User Activity & <br> Monitoring.</h2>
+               <span class="popular__price">$ 785</span>
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+            </article>
+         </div>
+      </section>
+
+      <!-- Deployment -->
+      <section class="pricing section" id="pricing">
+        <div class="pricing__container container grid">
+          <div class="deployment__data">
+            <h2 class="section__title">On-premise deployment</h2>
+
+            <p class="deployment__description">
+              Empower your security with full control and privacy on your premises.
+            </p>
+
+            <a href="#contact" class="button">Explore On-Premises Security.</a>
+          </div>
+
+          <img src="img/deployment image.jpeg" alt="image" class="deployment__img">
+        </div>  
+      </section>
+
+      <!-- Contact -->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <h2 class="section__title">Contact Now</h2>
+
+          <div class="contact__content grid">
+            <div class="contact__data grid">
+              <div>
+                <h3 class="contact__title">Write Us</h3>
+                
+                <div class="contact__social">
+                  <a href="https://api.ri-whatsapp.com/send?phone=123456789&text=Hello, more information!" target="_blank">
+                    <i class="ri-whatsapp-line"></i>
+                  </a>
+
+                  <a href="https://www.facebook.com/IgctelViz" target="_blank">
+                    <i class="ri-facebook-fill"></i>
+                  </a>
+
+                  <a href="https://t.me/IgctelViz" target="_blank">
+                    <i class="ri-telegram-fill"></i>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <h3 class="contact__title">Inquire</h3>
+                
+                <address class="contact__info">
+                  +2547123456 <br>
+                  +2547124567
+                </address>
+              </div>
+              
+              <div>
+                <h3 class="contact__title">Locate us here</h3>
+                
+                <address class="contact__info">
+                  Nairobi - Westlands - Kenya <br>
+                  Av. Ambo #28620
+                </address>
+              </div>
+            </div>
+            
+            <div class="contact__image">
+              <img src="img/contact man.jpg" alt="image" class="contact__img">
+            </div> 
+      </section>
+   </main>
+
+   <!-- Footer -->
+   <footer class="footer">
+    <div class="footer__container__container grid">
+      <a href="#" class="footer__logo">IgctelViz</a>
+
+      <div class="footer__content grid">
+        <a href="#" class="footer__link">Terms & Agreements</a>
+        <a href="#" class="footer__link">Privacy Policy</a>
+
+        <div class="footer__social">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="ri-instagram-fill"></i>
+          </a>
+
+          <a href="https://twitter.com/" target="_blank">
+            <i class="ri-twitter-x-fill"></i>
+          </a>
         </div>
-
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Products</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-        </ul>
       </div>
-    </nav>
-  </header>
+    </div>
+    <span class="footer__copy">
+      &copy; 2024 All Rights Reserved By IgctelViz
+    </span>
+   </footer>
 
-  <main class="main">
-    <!-- Home -->
-     <section class="home" id="home">
-      <div class="home__container bd-gr">
-        <div class="home__img">
-          <img src="https://raw.githubusercontent.com/Heshbon/IgctelViz/master/VisImg1.jpg" alt="" data-speed="-2" class="move">
-          <img src="https://raw.githubusercontent.com/Heshbon/IgctelViz/master/logVizImg2.jpg" alt="" data-speed="2" class="move">
-          <img src="https://raw.githubusercontent.com/Heshbon/IgctelViz/master/NetVizImg3.png" alt="" data-speed="2" class="move">
-          <img src="https://raw.githubusercontent.com/Heshbon/IgctelViz/master/ThreatVizImg4.jpeg" alt="" data-speed="-2" class="move">
-          <img src="https://raw.githubusercontent.com/Heshbon/IgctelViz/master/DigiVizImg5.png" alt="" data-speed="-2" class="move">
-          <img src="https://raw.githubusercontent.com/Heshbon/IgctelViz/master/IncidentVizImg6.jpeg" alt="" data-speed="2" class="move">
-        </div>
+   <!-- Scroll Up -->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="ri-arrow-up-line"></i>
+</a>
 
-        <div class="home__data">
-          <h1 class="home__title">IgctelViz<br> Seeing Beyond The Surface</h1>
-          <p class="home__description">Vizualizing cybersecurity for <br> a safer digital World.</p>
-          <a href="#" class="home__button">Get Started</a>
-        </div>
-        
-        <!-- About Section -->
-    <section class="about" id="about">
-      <div class="about__container bd-grid">
-        <div class="about__content">
-          <h2 class="about__title">About IgctelViz</h2>
-          <p class="about__description">
-            This project is inspired by a personal interest in Software engineering and cybersecurity. The idea originated from the need to create a tool that could simplify the monitoring and analysis of cybersecurity threats in real-time. The development timeline spanned seven days, driven by a passion for improving cybersecurity practices through innovative techniques.</p>.
-            <br><br>
-            This project is a Portfolio Project for Holberton School. You can learn more about Holberton School and their programs <a href="https://www.holbertonschool.com/" target="_blank">here</a>.
-          </p>
-        </div>
-      </div>
-      </div>
+<!-- Scroll Reveal-->
+ <script src="img/scrollreveal.min.js"></script>
 
-      <!--Profile Links-->
-      <div class="profile-links">
-        <a href="https://www.linkedin.com/in/hesbon-kipchirchir-a28460245" target="_blank">LinkedIn</a>
-        <a href="https://github.com/Heshbon" target="_blank">GitHub</a>
-        <a href="https://twitter.com/hesbonkyp" target="_blank">Twitter</a>
-        <p><a href="https://github.com/Heshbon" target="_blank">GitHub Repository</a></p>
-      </div>
-     </section>
-  </section>
-  </main>
-  <!-- GSAP -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-
-  <!-- main.js -->
+ <!-- Main.JS-->
   <script src="main.js"></script>
 </body>
 </html>

@@ -8,9 +8,9 @@ IgctelViz is an innovative web-based platform specializing in cybersecurity visu
 - [Technologies Used](#technologies-used)
 - [Installation](#installation).
 - [Usage](#usage)
-- [License](#license)
 - [Contributing](#contributing)
-- [RElated Projects](#related=projects).
+- [Related Projects](#related=projects).
+- [License](#license)
 - [Credits](#credits)
 - [Contacts](#contacts)
 
